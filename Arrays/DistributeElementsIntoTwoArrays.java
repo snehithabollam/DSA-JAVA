@@ -1,4 +1,4 @@
-class Solution {
+class DistributeElementsIntoTwoArrays {
     public int[] resultArray(int[] nums) {
         int n = nums.length;
 
