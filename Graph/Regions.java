@@ -1,4 +1,4 @@
-class Solution {
+class Regions {
     private void dfs(int row, int col, int[][] visit, char[][] board, int[] delrow, int[] delcol) {
         int n = board.length;
         int m = board[0].length;
