@@ -12,7 +12,7 @@ class Regions {
         }
     }
 
-    public void Regions(char[][] board) {
+    public void Region(char[][] board) {
         int n = board.length;
         int m = board[0].length;
         int[][] visit = new int[n][m];
