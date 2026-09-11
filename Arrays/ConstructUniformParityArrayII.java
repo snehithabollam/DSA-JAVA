@@ -1,4 +1,4 @@
-class Solution {
+class ConstructUniformParityArrayII {
 
     /**
      * Determines whether the given array can be made uniform
