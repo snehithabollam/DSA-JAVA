@@ -1,4 +1,4 @@
-public class SetMatrix {
+public class SetMatrixZeores {
     /*
      * Approach:
      * 1. Store which rows and columns contain zero.
