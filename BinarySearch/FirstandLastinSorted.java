@@ -1,4 +1,4 @@
-  import java.util.*;
+import java.util.*;
 public class FirstandLastinSorted {
     // Finds the first occurrence of x
     private int findFirst(int[] arr, int x) {
@@ -54,6 +54,9 @@ public class FirstandLastinSorted {
 
         return result;
     }
-/*Time Complexity: O(log n)
-Space Complexity: O(1) */ 
+
+    /*
+     * Time Complexity: O(log n)
+     * Space Complexity: O(1)
+     */
 }
