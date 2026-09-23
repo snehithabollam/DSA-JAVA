@@ -20,7 +20,6 @@ public class MaximumDepthofBinaryTree {
  *     }
  * }
  */
-
     /**
      * Returns the maximum depth of a binary tree.
      *
