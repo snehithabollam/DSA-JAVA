@@ -39,8 +39,8 @@ public class BinaryTreePreorderTraversal {
     /**
      * Performs preorder traversal.
      *
-     * @param root Root of the binary tree
-     * @return Preorder traversal list
+     *  root Root of the binary tree
+     *  Preorder traversal list
      */
     public List<Integer> preorderTraversal(TreeNode root) {
         preorder(root);

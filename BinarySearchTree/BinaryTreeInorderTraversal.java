@@ -39,8 +39,8 @@ public class BinaryTreeInorderTraversal {
     /**
      * Performs inorder traversal of a binary tree.
      *
-     * @param root Root of the binary tree
-     * @return List containing inorder traversal
+     *  root Root of the binary tree
+     *  List containing inorder traversal
      */
     public List<Integer> inorderTraversal(TreeNode root) {
         inorder(root);

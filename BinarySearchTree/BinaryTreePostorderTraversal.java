@@ -39,8 +39,8 @@ public class BinaryTreePostorderTraversal {
     /**
      * Performs postorder traversal of a binary tree.
      *
-     * @param root Root of the binary tree
-     * @return List containing postorder traversal
+     *  root Root of the binary tree
+     * List containing postorder traversal
      */
     public List<Integer> postorderTraversal(TreeNode root) {
         postorder(root);
