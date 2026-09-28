@@ -13,7 +13,29 @@ import java.util.*;
  * Time Complexity: O(n)
  * Space Complexity: O(n)
  */
-class KthSmallestElementinaBST {
+public class KthSmallestElementinaBST {
+
+    /**
+     * Definition for a binary tree node.
+     */
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 
     private final List<Integer> inorderList = new ArrayList<>();
 
@@ -23,7 +45,7 @@ class KthSmallestElementinaBST {
     }
 
     /**
-     * Performs inorder traversal:
+     * Inorder Traversal:
      * Left -> Root -> Right
      */
     private void inorder(TreeNode root) {
