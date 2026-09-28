@@ -24,9 +24,9 @@ public class InsertIntoABinarySearchTree {
     /**
      * Inserts a new value into a Binary Search Tree (BST).
      *
-     * @param root Root of the BST
-     * @param val  Value to be inserted
-     * @return Root of the updated BST
+     *  root Root of the BST
+     *  val  Value to be inserted
+     *  Root of the updated BST
      *
      * Time Complexity:
      *   Average Case: O(log n)
