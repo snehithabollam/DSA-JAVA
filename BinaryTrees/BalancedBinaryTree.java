@@ -20,7 +20,7 @@
  * }
  */
 
-class Solution {
+class BalancedBinaryTree {
 
     /**
      * Checks whether the binary tree is height-balanced.
