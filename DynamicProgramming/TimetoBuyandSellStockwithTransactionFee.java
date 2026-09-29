@@ -28,7 +28,7 @@
  * Space Complexity: O(n)
  */
 
-class Solution {
+class TimetoBuyandSellStockwithTransactionFee {
 
     public int maxProfit(int[] prices, int fee) {
 
