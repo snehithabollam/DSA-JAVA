@@ -91,7 +91,7 @@ class BSTIterator {
  * }
  */
 
-class Solution {
+class BinarySearchTreeIterator {
 
     /**
      * Searches for a given value in a Binary Search Tree (BST).
