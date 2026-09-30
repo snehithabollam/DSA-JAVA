@@ -31,7 +31,7 @@
  * Space Complexity: O(n)
  */
 
-class Solution {
+class BestTimetoBuyandSellStockwithCooldown {
 
     public int maxProfit(int[] prices) {
 
