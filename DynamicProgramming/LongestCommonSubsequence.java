@@ -128,7 +128,7 @@ class LongestCommonSubsequence {
  * Space Complexity: O(n * m)
  */
 
-class LongestCommonSubsequence {
+class LongestCommonSubsequence1 {
 
     int[][] dp;
 
