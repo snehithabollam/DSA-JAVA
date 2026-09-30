@@ -107,3 +107,71 @@ class LongestCommonSubsequence {
         );
     }
 }
+/*
+ * Problem: Longest Common Subsequence
+ * LeetCode: 1143
+ *
+ * Approach: Bottom-Up Dynamic Programming (Tabulation)
+ *
+ * dp[i][j] represents the length of the Longest Common Subsequence
+ * between:
+ *      text1[0 ... i-1]
+ *      text2[0 ... j-1]
+ *
+ * If the current characters match:
+ *      dp[i][j] = 1 + dp[i-1][j-1]
+ *
+ * If the current characters don't match:
+ *      dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+ *
+ * Time Complexity: O(n * m)
+ * Space Complexity: O(n * m)
+ */
+
+class LongestCommonSubsequence {
+
+    int[][] dp;
+
+    public int longestCommonSubsequence(String text1, String text2) {
+
+        int n = text1.length();
+        int m = text2.length();
+
+        // DP table
+        dp = new int[n + 1][m + 1];
+
+        /*
+         * Base cases:
+         * If either string is empty, LCS length is 0.
+         *
+         * Java initializes int arrays with 0,
+         * so explicit initialization is not required.
+         */
+
+        for (int i = 1; i <= n; i++) {
+
+            for (int j = 1; j <= m; j++) {
+
+                char ch1 = text1.charAt(i - 1);
+                char ch2 = text2.charAt(j - 1);
+
+                // Characters match
+                if (ch1 == ch2) {
+
+                    dp[i][j] = 1 + dp[i - 1][j - 1];
+
+                } else {
+
+                    // Characters don't match
+                    dp[i][j] = Math.max(
+                            dp[i - 1][j],
+                            dp[i][j - 1]
+                    );
+                }
+            }
+        }
+
+        // Final answer
+        return dp[n][m];
+    }
+}
