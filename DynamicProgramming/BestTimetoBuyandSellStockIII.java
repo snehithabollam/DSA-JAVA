@@ -30,7 +30,7 @@
  * Space Complexity: O(n * 2 * 3) = O(n)
  */
 
-class Solution {
+class BestTimetoBuyandSellStockIII {
 
     public int maxProfit(int[] prices) {
 
