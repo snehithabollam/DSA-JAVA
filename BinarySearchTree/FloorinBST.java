@@ -1,5 +1,5 @@
 //Definition for Node
-class Node {
+class Node{
     int data;
     Node left, right;
 

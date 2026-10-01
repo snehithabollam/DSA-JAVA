@@ -16,7 +16,7 @@ import java.util.List;
  */
 
 // Definition of a Binary Tree Node
-class TreeNode {
+class TreeNode{
     int val;
     TreeNode left;
     TreeNode right;
