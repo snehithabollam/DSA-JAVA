@@ -15,7 +15,7 @@
  * where n = length of the string.
  */
 
-class Solution {
+class MinimumInsertionStepstoMakeaStringPalindrome {
 
     int[][] dp;
 

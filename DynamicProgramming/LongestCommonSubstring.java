@@ -31,7 +31,7 @@
  * m = length of s2
  */
 
-class Solution {
+class LongestCommonSubstring {
 
     public int longestCommonSubstring(String s1, String s2) {
 

@@ -12,7 +12,7 @@
  * where n = length of the input string.
  */
 
-class Solution {
+class LongestPalindromicSubsequence {
 
     public int longestPalindromeSubseq(String s) {
 
