@@ -35,7 +35,7 @@
  * m = length of t
  */
 
-class Solution {
+class Distinctsubsequences {
 
     int[][] dp;
 
