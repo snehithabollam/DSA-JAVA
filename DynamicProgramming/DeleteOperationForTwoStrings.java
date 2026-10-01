@@ -25,7 +25,7 @@
  * m = length of word2
  */
 
-class Solution {
+class DeleteOperationForTwoStrings {
 
     int[][] dp;
 
