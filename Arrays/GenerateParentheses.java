@@ -32,7 +32,7 @@ import java.util.List;
  * contains 2n characters.
  */
 
-class GenerateParentheses {
+class GenerateParentheses{
 
     public List<String> generateParenthesis(int n) {
 
