@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class MaximumAlternatingSumofSquares {
 
     public long maxAlternatingSum(int[] nums) {
         int n = nums.length;
